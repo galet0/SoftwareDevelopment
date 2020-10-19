@@ -1,0 +1,10 @@
+C:\Users\wewww\source\repos\PersonsApp\PersonsApp\bin\Debug\PersonsApp.exe.config
+C:\Users\wewww\source\repos\PersonsApp\PersonsApp\bin\Debug\PersonsApp.exe
+C:\Users\wewww\source\repos\PersonsApp\PersonsApp\bin\Debug\PersonsApp.pdb
+C:\Users\wewww\source\repos\PersonsApp\PersonsApp\obj\Debug\PersonsApp.csprojAssemblyReference.cache
+C:\Users\wewww\source\repos\PersonsApp\PersonsApp\obj\Debug\PersonsApp.Form1.resources
+C:\Users\wewww\source\repos\PersonsApp\PersonsApp\obj\Debug\PersonsApp.Properties.Resources.resources
+C:\Users\wewww\source\repos\PersonsApp\PersonsApp\obj\Debug\PersonsApp.csproj.GenerateResource.cache
+C:\Users\wewww\source\repos\PersonsApp\PersonsApp\obj\Debug\PersonsApp.csproj.CoreCompileInputs.cache
+C:\Users\wewww\source\repos\PersonsApp\PersonsApp\obj\Debug\PersonsApp.exe
+C:\Users\wewww\source\repos\PersonsApp\PersonsApp\obj\Debug\PersonsApp.pdb
