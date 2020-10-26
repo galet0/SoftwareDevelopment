@@ -28,9 +28,5 @@ namespace PersonsApp
             set { grades = value; }
         }
 
-        public void AddGrade(double grade)
-        {
-            this.grades.Add(grade);
-        }
     }
 }

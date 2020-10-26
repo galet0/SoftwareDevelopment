@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace PersonsApp
 {
-    class Teacher : Person
+    class Teacher : User
     {
-        public Teacher(string name, string address) 
-            : base(name, address)
+        public Teacher(string name, string address, string email) 
+            : base(name, address, email)
         {
         }
 

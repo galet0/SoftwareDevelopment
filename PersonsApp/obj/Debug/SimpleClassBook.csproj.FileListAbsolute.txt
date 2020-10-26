@@ -1,0 +1,10 @@
+C:\Users\wewww\Desktop\GIT\SoftwareDevelopment\PersonsApp\obj\Debug\SimpleClassBook.csprojAssemblyReference.cache
+C:\Users\wewww\Desktop\GIT\SoftwareDevelopment\PersonsApp\obj\Debug\PersonsApp.Form1.resources
+C:\Users\wewww\Desktop\GIT\SoftwareDevelopment\PersonsApp\obj\Debug\PersonsApp.Properties.Resources.resources
+C:\Users\wewww\Desktop\GIT\SoftwareDevelopment\PersonsApp\obj\Debug\SimpleClassBook.csproj.GenerateResource.cache
+C:\Users\wewww\Desktop\GIT\SoftwareDevelopment\PersonsApp\obj\Debug\SimpleClassBook.csproj.CoreCompileInputs.cache
+C:\Users\wewww\Desktop\GIT\SoftwareDevelopment\PersonsApp\obj\Debug\PersonsApp.exe
+C:\Users\wewww\Desktop\GIT\SoftwareDevelopment\PersonsApp\obj\Debug\PersonsApp.pdb
+C:\Users\wewww\Desktop\GIT\SoftwareDevelopment\PersonsApp\bin\Debug\PersonsApp.exe.config
+C:\Users\wewww\Desktop\GIT\SoftwareDevelopment\PersonsApp\bin\Debug\PersonsApp.exe
+C:\Users\wewww\Desktop\GIT\SoftwareDevelopment\PersonsApp\bin\Debug\PersonsApp.pdb

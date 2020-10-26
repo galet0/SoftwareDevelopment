@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PersonsApp.Controllers;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,7 +13,7 @@ namespace PersonsApp
 {
     public partial class Form1 : Form
     {
-        private List<Person> people = new List<Person>();
+        private UserController userController = new UserController();
         public Form1()
         {
             InitializeComponent();
@@ -22,19 +23,34 @@ namespace PersonsApp
         {
             string name = txtName.Text;
             string address = txtAddress.Text;
+            string email = txtEmail.Text;
+            string password = txtPassword.Text;
+            string confirmPassword = txtConfirmPassword.Text;
 
             var personType = cbPersonType.Text;
-            switch (personType)
-            {
-                case "Student":
-                    Student student = new Student(name, address);
-                    people.Add(student);
-                    break;
-                case "Teacher":
-                    Teacher teacher = new Teacher(name, address);
-                    people.Add(teacher);
-                    break;
+            try 
+            { 
+                userController
+                    .RegisterUser(personType, name, address, email,password, confirmPassword);
+
+                txtName.Clear();
+                txtAddress.Clear();
+                txtEmail.Clear();
+                txtPassword.Clear();
+                txtConfirmPassword.Clear();
             }
+            catch (ArgumentException ex )
+            {
+                MessageBox.Show($"{ex.Message}", "ErrorMessage!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

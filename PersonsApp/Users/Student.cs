@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace PersonsApp
 {
-    class Student : Person
+    class Student : User
     {
         private List<Lesson> lessons;
 
-        public Student(string name, string address) 
-            : base(name, address)
+        public Student(string name, string address, string email) 
+            : base(name, address, email)
         {
             this.Lessons = new List<Lesson>();
         }
