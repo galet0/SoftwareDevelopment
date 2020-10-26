@@ -16,8 +16,6 @@ namespace PersonsApp
             Name = name;
             grades = new List<double>();
         }
-
-
         public string Name
         {
             get { return name; }
@@ -28,6 +26,11 @@ namespace PersonsApp
         {
             get { return grades; }
             set { grades = value; }
+        }
+
+        public void AddGrade(double grade)
+        {
+            this.grades.Add(grade);
         }
     }
 }
