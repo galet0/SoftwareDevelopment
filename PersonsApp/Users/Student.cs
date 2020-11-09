@@ -9,6 +9,20 @@ namespace PersonsApp
     class Student : User
     {
         private List<Lesson> lessons;
+        private int numberInClass;
+        private string classStr;
+
+        public string ClassStr
+        {
+            get { return classStr; }
+            set { classStr = value; }
+        }
+
+        public int NumberInClass
+        {
+            get { return numberInClass; }
+            set { numberInClass = value; }
+        }
 
         public Student(string name, string address, string email) 
             : base(name, address, email)

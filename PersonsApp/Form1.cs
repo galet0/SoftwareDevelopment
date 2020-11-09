@@ -52,5 +52,10 @@ namespace PersonsApp
         {
 
         }
+
+        private void cbPersonType_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

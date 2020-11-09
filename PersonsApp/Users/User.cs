@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PersonsApp
 {
-    class User
+    public class User
     {
         private string name;
         private string address;

@@ -95,6 +95,7 @@
             this.cbPersonType.Name = "cbPersonType";
             this.cbPersonType.Size = new System.Drawing.Size(405, 24);
             this.cbPersonType.TabIndex = 0;
+            this.cbPersonType.SelectedIndexChanged += new System.EventHandler(this.cbPersonType_SelectedIndexChanged);
             // 
             // txtEmail
             // 
@@ -116,6 +117,7 @@
             // 
             this.txtConfirmPassword.Location = new System.Drawing.Point(162, 440);
             this.txtConfirmPassword.Name = "txtConfirmPassword";
+            this.txtConfirmPassword.PasswordChar = '*';
             this.txtConfirmPassword.Size = new System.Drawing.Size(339, 22);
             this.txtConfirmPassword.TabIndex = 5;
             // 
@@ -132,6 +134,7 @@
             // 
             this.txtPassword.Location = new System.Drawing.Point(162, 381);
             this.txtPassword.Name = "txtPassword";
+            this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(339, 22);
             this.txtPassword.TabIndex = 4;
             // 

@@ -9,5 +9,7 @@ namespace PersonsApp.Contracts
     interface IUserController
     {
         void RegisterUser(string userType, string name, string address,string email, string password, string confirmPassword);
+
+
     }
 }
